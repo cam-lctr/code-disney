@@ -1,0 +1,31 @@
+
+
+@media screen and (min-width: var(--mobile)) {
+    #conteneur-visuel {
+        top: 0;
+        width: 100%;
+        height: 125vw;
+    }
+    #conteneur-visuel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}/* @media screen and (min-width: $mobile) { */
+
+
+
+
+
+@media screen and (min-width: var(--desktop)) {
+    #conteneur-visuel {
+        top: 0;
+        width: 100%;
+        height: 125vw;
+    }
+    #conteneur-visuel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}/* @media screen and (min-width: $desktop) { */

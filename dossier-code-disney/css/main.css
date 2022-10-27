@@ -45,7 +45,7 @@ sass --watch sass/main.scss:css/main.css --style compressed
 /* A JETER plus tard*/
 
 body{
-    background-color: black;
+    background-color: red;
 }
 
 .fixe {

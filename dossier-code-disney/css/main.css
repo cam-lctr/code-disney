@@ -48,6 +48,10 @@ body{
     background-color: black;
 }
 
+.fixe {
+    position : fixed;
+}
+
 /* ul {
  list-style-type: circle;
 }  ca marche pas */

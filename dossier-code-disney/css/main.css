@@ -22,8 +22,8 @@ sass --watch sass/main.scss:css/main.css --style compressed
 
 /* ---------- INIT */
 
-@import url('./css/_init/webfonts.css');
-@import url('./css/_init/variables.css');
+@import url('_init/webfonts.css');
+@import url('_init/variables.css');
 
 
 
@@ -31,7 +31,7 @@ sass --watch sass/main.scss:css/main.css --style compressed
 
 /* ---------- BALISES HTML COMMUNES */
 
-@import url('./css/_commun/structure.css');
+@import url('_commun/structure.css');
 
 
 

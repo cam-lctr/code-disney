@@ -40,6 +40,18 @@ sass --watch sass/main.scss:css/main.css --style compressed
 /* ---------- PAGES - structure */
 
 
+
+
+
+
+body{
+    background-color: var(--noir);
+    color: var(--blanc);
+    min-height: 7000px;  /* Pour que le fond noir arrive jusqu'en bas de la page; */
+}
+
+/* BOUTON JOUER ! */
+
 button{
     text-align: center;
     border-radius: 30px;
@@ -49,21 +61,65 @@ button{
 
   }
 
-  
 
+/* IMAGE DU CHATEAU */
+
+#conteneur-illuminations {
+    position: relative;
+    width: 90%;
+    min-height: 60vw;
+    margin: 15px 0;
+}
+#conteneur-illuminations svg{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+#conteneur-illuminations img{
+    position: absolute;
+    left: 1.5%;
+    width: 97%;
+}
+
+
+
+/* IMAGE DU GARS  */
+
+#conteneur-jungle {
+    position: relative;
+    width: 90%;
+    height: 23vw;
+    margin: 15px 0;
+}
+#conteneur-jungle svg{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+#conteneur-jungle img{
+    position: absolute;
+    left: 1.5%;
+    width: 97%;
+}
+
+/* 
+   IMAGE AVEC POSITION : RELATIVE DUMB MAIS JSP CMMT FAIRE D'AUTRE
+   --> RAPPEL : c'est le height qui dérange tout sinon mettre un
+   flex-box au lieu de position mais cmmt faire pour que le SVG soit
+   en-dessous que l'image ? 
+   A VOIR
+*/
 
 
 /* A JETER plus tard*/
 
 
-body{
-    background-color: var(--noir);
-    color: var(--blanc);
-}
 
-.fixe {
-    position : fixed;
-}
+
+
+
+
+
 
 /* ul {
  list-style-type: circle;

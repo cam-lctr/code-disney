@@ -1,0 +1,55 @@
+
+:root {
+/* DIMENSIONS */
+  --mobile: 48rem;
+  --desktop: 64rem;
+
+
+
+/* COULEURS début */
+  --blanc: #FFFFFF;
+  --blanc2: #F9F7F2;
+  --blanc3: #F7F6F5;
+
+  /* pour texte et encadré : */
+  --jaune : #FFB700;
+  /* pour texte : */
+  --jaune2 : #FFD100;
+
+  --or : #C8951A;
+  --or2 : #A9874F;
+  --or3 : #DFB069;
+
+  --jaune3: #FFF9D3;
+  --jaune4 : #FFF9D1;
+  --jaune5 : #F1DC8D;
+  --jaune6 : #EBC23A;
+  --jaune7: #EEB520;
+  --jaune8 : #FFD018;
+
+  --orange2 : #DDB390;
+  --orange : #E7683A;
+  --rose: #CC3047;
+  --sienna: #750D00;
+  --marron: #46231A;
+
+  --noir : #000000;
+  --noir2 : #1A1817;
+  --noir3 : #22242C;
+/* COULEURS fin */
+
+
+
+/* DEGRADES début */
+  --degrade1: linear-gradient(to bottom, var(--jaune2) 0%, var(--jaune) 100%);
+  --degrade2: linear-gradient(to bottom, var(--jaune2) 0%, var(--jaune) 50%, var(--orange) 100%);
+  --degrade3: linear-gradient(to bottom, var(--jaune3) 0%, var(--or) 75%, var(--jaune3) 100%);
+
+  /* pour bouton jouer : (le seul dégradé utile pour l'instant) */
+  --degrade4: linear-gradient(to bottom, var(--jaune3) 0%, var(--jaune5) 50%, var(--or) 100%);
+
+  --degrade5: linear-gradient(to bottom, var(--or2) 0%, var(--or3) 100%);
+/* DEGRADES fin */
+
+
+}

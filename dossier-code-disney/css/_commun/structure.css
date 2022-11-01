@@ -19,12 +19,6 @@
         max-height: 100vh;
     }
 
-    #conteneur-visuel img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
     #conteneur-vegetal {
         display: flex;
         justify-content: center;
@@ -39,6 +33,21 @@
     #text{
         background-color: black;
     }
+
+    /* --- SVG ZIG ZAG AVEC POINTS */
+    /* (si tu as un meilleur nommage mets-le stp */
+
+    #_00_Homepage {
+        width: 300px;
+    }
+
+    /* --- IMAGE DU CHATEAU */
+
+    #conteneur-illuminations {
+        height: 60vw;
+        top: 27vw;
+    }
+    
 }/* @media screen and (min-width: $mobile) { */
 
 
@@ -52,8 +61,6 @@
     }
 
     .scroll {
-        position : relative;
-        z-index: 1;
         left: 40%;
         width: 60%;
     }
@@ -61,12 +68,6 @@
     #conteneur-visuel {
         top: 0;
         height: 100vh;
-    }
-
-    #conteneur-visuel img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
     }
 
     #conteneur-vegetal {
@@ -83,9 +84,24 @@
     #text{
         position: absolute;
         padding: 20px;
-        left: 30%;
-        width : 70%;
+        left: 25%;
+        width : 75%;
         z-index : 10;
         background-color: transparent;
     } 
+
+    /* --- SVG ZIG ZAG AVEC POINTS */
+    /* (si tu as un meilleur nommage mets-le stp */
+
+    #_00_Homepage {
+        width: 500px;
+    }
+
+    /* --- IMAGE DU CHATEAU */
+
+    #conteneur-illuminations {
+        height: 25vw;
+        top: 12vw;
+    }
+
 }/* @media screen and (min-width: $desktop) { */

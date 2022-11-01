@@ -14,25 +14,72 @@ font-weight: 950; ----- Extra Black (Ultra Black)
 */
 
 
+
+
+/* FONT LITHOS début */
 @font-face {
   font-family: 'Titrage';
-  src: url('../fonts/lithospro-bold-webfont.woff2') format('woff2'),
-       url('../fonts/lithospro-bold-webfont.woff') format('woff');
+  src: url('../../fonts/lithospro-bold-webfont.woff2') format('woff2'),
+       url('../../fonts/lithospro-bold-webfont.woff') format('woff');
+  font-weight: 700; /* bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titrage';
+  src: url('../../fonts/lithospro-black-webfont.woff2') format('woff2'),
+       url('../../fonts/lithospro-black-webfont.woff') format('woff');
+  font-weight: 900; /* black */
+  font-style: normal;
+}
+/* FONT LITHOS fin */
+
+
+/* FONT OPEN SANS début */
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans-Light-webfont.woff') format('woff');
+  font-weight: 300; /* light */
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans-LightItalic-webfont.woff') format('woff');
+  font-weight: 300; /* light italic */
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
+  font-weight: 400; /* regular */
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans-Semibold-webfont.woff') format('woff');
+  font-weight: 600; /* semi bold */
+  font-style: normal;
+
+}
+/* FONT OPEN SANS fin */
+
+
+
+
+body {
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 16px }
+
+  
+h2 {
+  font-family: 'Titrage';
   font-weight: 700;
-  font-style: normal;
+  font-size: 3rem; 
 }
-
-@font-face {
-  font-family: 'Titrage';
-  src: url('./fonts/lithospro-black-webfont.woff2') format('woff2'),
-       url('./fonts/lithospro-black-webfont.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-
-
-  h2 {
-    font-family: "Titrage";
-    font-weight: 700;
-    font-size: 3rem; 
-  }

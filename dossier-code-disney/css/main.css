@@ -40,6 +40,58 @@ sass --watch sass/main.scss:css/main.css --style compressed
 /* ---------- PAGES - structure */
 
 
+body{
+    background-color: var(--noir);
+    color: var(--blanc);
+    min-height: 7000px;  /* Pour que le fond noir arrive jusqu'en bas de la page; */
+}
+
+
+
+
+
+
+
+/* ---------- ECRAN FIXE      */
+
+/* --- FANION NOUVEAU */
+.fixe>img {
+    position: absolute;
+    top: -55px;
+    left: 7%;
+    width: 100px;
+}
+
+/* --- VISUEL ROI LION */
+#conteneur-visuel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+
+
+
+
+
+/* ---------- ECRAN SCROLL      */
+
+
+/* --- SVG ZIG ZAG AVEC POINTS */
+/* (si tu as un meilleur nommage mets-le stp */
+
+#_00_Homepage {
+    position: absolute;
+    left: 50%;                                             
+    transform: translate(-50%, 0);
+}
+
+h2 {
+    padding: 100px 0 40px 0;
+}
+
+/* --- BOUTON JOUER ! */
+
 button{
     text-align: center;
     border-radius: 30px;
@@ -49,23 +101,93 @@ button{
 
   }
 
-  
 
+/* --- TITRE AVEC BORDURE JAUNE */
+
+.titre-bordure {
+    margin: 20% 0;
+    height: 0.1vw;
+    position: relative;
+    left: 50%;                       
+    top: 50%;                        
+    transform: translate(-50%, -50%)
+}
+
+.titre-bordure svg {
+    position: absolute;
+    left: 15%;                       
+    top: 50%;                        
+    transform: translate(-9%, -50%)
+}
+
+.titre-bordure h2 {
+    position: absolute;
+    left: 50%;                       
+    top: 50%;                        
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+
+
+/* --- IMAGE DU CHATEAU */
+
+#conteneur-illuminations {
+    position: relative;
+    width: 90%;
+    left: 50%;                                            
+    transform: translate(-50%, -50%)
+}
+#conteneur-illuminations svg{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+#conteneur-illuminations img{
+    position: absolute;
+    left: 1.5%;
+    width: 97%;
+}
+
+
+ul {
+    list-style: circle;
+    padding-left: 20px;
+} 
+
+
+/* --- IMAGE DU GARS  */
+
+#conteneur-jungle {
+    position: relative;
+    width: 90%;
+    height: 23vw;
+    margin: 15px 0;
+    left: 50%;                                            
+    transform: translate(-50%, 0)
+}
+#conteneur-jungle svg{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+#conteneur-jungle img{
+    position: absolute;
+    left: 1.5%;
+    width: 97%;
+}
+
+/* 
+   IMAGE AVEC POSITION : RELATIVE DUMB MAIS JSP CMMT FAIRE D'AUTRE
+   --> RAPPEL : c'est le height qui dérange tout sinon mettre un
+   flex-box au lieu de position mais cmmt faire pour que le SVG soit
+   en-dessous que l'image ? 
+   A VOIR
+*/
 
 
 /* A JETER plus tard*/
 
 
-body{
-    background-color: var(--noir);
-    color: var(--blanc);
-}
 
-.fixe {
-    position : fixed;
-}
 
-/* ul {
- list-style-type: circle;
-}  ca marche pas */
 

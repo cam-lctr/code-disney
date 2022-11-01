@@ -1,12 +1,10 @@
 
 :root {
-/* DIMENSIONS */
+  /* DIMENSIONS */
   --mobile: 48rem;
   --desktop: 64rem;
 
-
-
-/* COULEURS début */
+  /* COULEURS début */
   --blanc: #FFFFFF;
   --blanc2: #F9F7F2;
   --blanc3: #F7F6F5;
@@ -36,11 +34,11 @@
   --noir : #000000;
   --noir2 : #1A1817;
   --noir3 : #22242C;
-/* COULEURS fin */
+  /* COULEURS fin */
 
 
 
-/* DEGRADES début */
+  /* DEGRADES début */
   --degrade1: linear-gradient(to bottom, var(--jaune2) 0%, var(--jaune) 100%);
   --degrade2: linear-gradient(to bottom, var(--jaune2) 0%, var(--jaune) 50%, var(--orange) 100%);
   --degrade3: linear-gradient(to bottom, var(--jaune3) 0%, var(--or) 75%, var(--jaune3) 100%);
@@ -49,7 +47,5 @@
   --degrade4: linear-gradient(to bottom, var(--jaune3) 0%, var(--jaune5) 50%, var(--or) 100%);
 
   --degrade5: linear-gradient(to bottom, var(--or2) 0%, var(--or3) 100%);
-/* DEGRADES fin */
-
-
+  /* DEGRADES fin */
 }

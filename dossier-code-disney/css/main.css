@@ -41,9 +41,71 @@ sass --watch sass/main.scss:css/main.css --style compressed
 
 
 body{
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 16px;
     background-color: var(--noir);
     color: var(--blanc);
     min-height: 7000px;  /* Pour que le fond noir arrive jusqu'en bas de la page; */
+}
+
+
+/* ---------- BALISES TEXT */ 
+
+h1 {
+    font-family: 'Titrage';
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    color: var(--blanc);
+    margin-top: 120px;
+}
+
+h2 {
+    font-family: 'Titrage';
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.h2-blanc {
+    color: var(--blanc);
+}
+
+.h2-jaune {
+    padding: 100px 0 40px 0; 
+    color: var(--jaune);
+}
+
+h3 {
+    font-family: 'Titrage';
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: var(--jaune);
+}
+  
+h4 {
+    font-family: 'Titrage';
+    font-weight: 400;
+    font-size: 1.3rem; 
+    color: var(--orange);
+}
+
+h4::before {
+    content: ""; 
+    display: inline-block;
+    background-image: url('points.svg'); /*EMPLACEMENT A CHANGER*/
+    height: 40px;
+    width: 20px;
+}
+
+h5 {
+    font-family: 'Titrage';
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--orange);
 }
 
 
@@ -78,7 +140,7 @@ body{
 
 
 /* --- SVG ZIG ZAG AVEC POINTS */
-/* (si tu as un meilleur nommage mets-le stp */
+/* (si tu as un meilleur nommage mets-le stp) */
 
 #_00_Homepage {
     position: absolute;
@@ -86,21 +148,46 @@ body{
     transform: translate(-50%, 0);
 }
 
-h2 {
-    padding: 100px 0 40px 0;
-}
-
 /* --- BOUTON JOUER ! */
 
-button{
+button {
+    position: relative;
+    left: 50%;                                             
+    transform: translate(-50%, 0);
+    margin: 60px 0;
     text-align: center;
     border-radius: 30px;
     border: 1px solid var(--jaune2);
     background:var(--degrade4);
-    box-shadow: 0px 0px 10px var(--jaune4); /*ombre portée*/
+    animation: scintillement 3000ms infinite;
+    width: 300px;
+    height: 50px;
+    transition: all 0.4s ease-in-out;
+    /*box-shadow: 0px 0px 10px var(--jaune4);*/ /*ombre portée*/
+}
 
-  }
+button:hover {
+    width: 400px;
+    height: 60px;
+    background: var(--degrade3); /*J'ai choisi dégradé3 mais tu peux choisir un autre si tu veux :)*/ 
+    animation: scintillement-hover 3000ms infinite;
+}
 
+/* ANIMATION DU BOUTON */
+
+@keyframes scintillement {
+    0% { box-shadow: 0 0 -10px var(--jaune4); }
+    40% { box-shadow: 0 0 10px var(--jaune4); }
+    60% { box-shadow: 0 0 10px var(--jaune4); }
+    100% { box-shadow: 0 0 -10px var(--jaune4); }
+}
+
+@keyframes scintillement-hover {
+    0% { box-shadow: 0 0 -10px var(--jaune6); }
+    40% { box-shadow: 0 0 20px var(--jaune6); }
+    60% { box-shadow: 0 0 20px var(--jaune6); }
+    100% { box-shadow: 0 0 -10px var(--jaune6); }
+}
 
 /* --- TITRE AVEC BORDURE JAUNE */
 
@@ -147,13 +234,6 @@ button{
     left: 1.5%;
     width: 97%;
 }
-
-
-/* ul {
-    list-style: circle;
-    padding-left: 20px;
-}  */
-
 
 ul {
     list-style: none;

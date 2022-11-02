@@ -68,18 +68,3 @@ font-weight: 950; ----- Extra Black (Ultra Black)
 
 }
 /* FONT OPEN SANS fin */
-
-
-
-
-body {
-  font-family: 'OpenSans';
-  font-weight: 600;
-  font-size: 16px }
-
-  
-h2 {
-  font-family: 'Titrage';
-  font-weight: 700;
-  font-size: 3rem; 
-}

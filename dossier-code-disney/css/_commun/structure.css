@@ -44,8 +44,12 @@
     /* --- IMAGE DU CHATEAU */
 
     #conteneur-illuminations {
-        height: 60vw;
+        height: 55vw;
         top: 27vw;
+    }
+
+    #conteneur-jungle {
+        height: 50vw;
     }
     
 }/* @media screen and (min-width: $mobile) { */
@@ -54,7 +58,7 @@
 
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
     .fixe {
         height: 100vh;
         width: 50%;
@@ -102,6 +106,10 @@
     #conteneur-illuminations {
         height: 25vw;
         top: 12vw;
+    }
+
+    #conteneur-jungle {
+        height: 22vw;
     }
 
 }/* @media screen and (min-width: $desktop) { */

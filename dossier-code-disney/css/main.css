@@ -39,64 +39,21 @@ sass --watch sass/main.scss:css/main.css --style compressed
 
 /* ---------- PAGES - structure */
 
-
 body{
     font-family: 'OpenSans';
     font-weight: 600;
     font-size: 16px;
     background-color: var(--noir);
     color: var(--blanc);
-    height: 205vw;
 }
 
 .bgcolor {
     position: fixed;
-    height: 100vw;
+    height: 100vh;
+    margin-left: 250px;
+    width: 70vw;
     background-color: var(--noir);
-}
-
-/* ---------- BALISES TEXT */ 
-
-h1 {
-    font-family: 'Titrage';
-    font-weight: 700;
-    font-size: 4rem;
-    text-align: center;
-    color: var(--blanc);
-    margin-top: 120px;
-}
-
-h2 {
-    font-family: 'Titrage';
-    font-weight: 700;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.h2-blanc {
-    color: var(--blanc);
-}
-
-.h2-jaune {
-    padding: 100px 0 40px 0; 
-    color: var(--jaune);
-    font-size: 2rem;
-}
-
-h3 {
-    font-family: 'Titrage';
-    font-weight: 700;
-    font-size: 28px;
-    text-align: center;
-    color: var(--jaune);
-}
-  
-h4 {
-    font-family: 'Titrage';
-    font-weight: 400;
-    font-size: 1.3rem; 
-    color: var(--orange);
-    margin-top: 40px;
+    z-index: -1;
 }
 
 h4::before {
@@ -107,23 +64,6 @@ h4::before {
     width: 20px;
     vertical-align: -50%;
 }
-
-h5 {
-    font-family: 'Titrage';
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-align: center;
-    color: var(--orange);
-}
-
-p span {
-    color: var(--jaune);
-}
-
-p .italique {
-    font-style: italic;
-}
-
 
 /* ---------- ECRAN FIXE      */
 
@@ -137,21 +77,12 @@ p .italique {
 
 /* --- VISUEL ROI LION */
 #conteneur-visuel img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
 } 
 
 
-
-
-
-
 /* ---------- ECRAN SCROLL      */
-
-#text {
-    padding: 20px;
-}
 
 /* --- SVG ZIG ZAG AVEC POINTS */
 /* (si tu as un meilleur nommage mets-le stp) */
@@ -165,10 +96,6 @@ p .italique {
 /* --- BOUTON JOUER ! */
 
 button {
-    font-family: 'Titrage';
-    font-weight: 700;
-    font-size: 2.5rem;
-    text-align: center;
     position: relative;
     left: 50%;                                             
     transform: translate(-50%, 0);

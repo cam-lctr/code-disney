@@ -19,19 +19,28 @@
         max-height: 100vh;
     }
 
-    #conteneur-vegetal {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 100vw;
+    .bgcolor {
+        display: none;
     }
 
-    #conteneur-vegetal img {
-        transform: rotate(90deg);
+    #conteneur-vegetal {
+        display: none;
+    }
+
+    #conteneur-vegetal90 {
+        height: 247px;
+    }
+    
+    #conteneur-vegetal90 img{
+        margin-top: -900px;
     }
 
     #text{
+        position: absolute;
+        top: 900px;
+        width : 100%;
         background-color: black;
+
     }
 
     /* --- SVG ZIG ZAG AVEC POINTS */
@@ -51,6 +60,82 @@
     #conteneur-jungle {
         height: 50vw;
     }
+
+    h1 {
+        font-family: 'Titrage';
+        font-weight: 700;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--blanc);
+        margin-top: 120px;
+    }
+    
+    h2 {
+        font-family: 'Titrage';
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .h2-blanc {
+        color: var(--blanc);
+        font-size: 1.3rem;
+    }
+    
+    .h2-jaune {
+        padding: 100px 0 40px 0; 
+        color: var(--jaune);
+    }
+
+    .gagner {
+        font-size: 1.5rem;
+    }
+
+    .aventure {
+        font-size: 0.9rem;
+    }
+    
+    h3 {
+        font-family: 'Titrage';
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--jaune);
+    }
+      
+    h4 {
+        font-family: 'Titrage';
+        font-weight: 400;
+        font-size: 1rem; 
+        color: var(--orange);
+        margin-top: 40px;
+    }
+    
+    h5 {
+        font-family: 'Titrage';
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--orange);
+    }
+
+    p {
+        padding: 20px;
+    }
+    
+    p span {
+        color: var(--jaune);
+    }
+    
+    p .italique {
+        font-style: italic;
+    }
+
+    button {
+        font-family: 'Titrage';
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: center;
+    }
     
 }/* @media screen and (min-width: $mobile) { */
 
@@ -58,15 +143,20 @@
 
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 64rem) {
+
+    body {
+        height: 205vw;
+    }
+
     .fixe {
         height: 100vh;
         width: 50%;
     }
 
     .scroll {
-        left: 40%;
-        width: 60%;
+        left: 30%;
+        width: 70%;
     }
 
     #conteneur-visuel {
@@ -74,19 +164,29 @@
         height: 100vh;
     }
 
+    .bgcolor {
+        display: inherit;
+    }
+
     #conteneur-vegetal {
+        display: inherit;
         position : fixed;
-        justify-content: start;
+        margin-left: 170px;
         height: 100%;
     }
 
     #conteneur-vegetal img {
         height: 100vh;
-        transform: rotate(0deg);
+        
+    }
+
+    #conteneur-vegetal90 {
+        display: none;
     }
 
     #text{
         position: absolute;
+        top: 0;
         padding: 20px;
         left: 25%;
         width : 75%;
@@ -95,7 +195,6 @@
     } 
 
     /* --- SVG ZIG ZAG AVEC POINTS */
-    /* (si tu as un meilleur nommage mets-le stp */
 
     #_00_Homepage {
         width: 500px;
@@ -110,6 +209,34 @@
 
     #conteneur-jungle {
         height: 22vw;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+
+    .h2-blanc {
+        margin-top: 50px;
+    }
+    
+    .h2-jaune {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 28px;
+    }
+      
+    h4 {
+        font-size: 1.3rem; 
+    }
+    
+    h5 {
+        font-size: 1.5rem;
     }
 
 }/* @media screen and (min-width: $desktop) { */

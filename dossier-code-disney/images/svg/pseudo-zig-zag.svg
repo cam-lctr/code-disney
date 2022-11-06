@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1913"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   sodipodi:docname="pseudo-zig-zag.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1915"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.68684764"
+     inkscape:cx="396.01213"
+     inkscape:cy="95.363216"
+     inkscape:window-width="1263"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1910" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1296"
+       transform="matrix(0.4219967,0,0,-0.4219967,92.213581,14.96272)"
+       style="stroke-width:0.835973">
+      <path
+         d="M 0,0 C -0.286,0 -0.571,0.085 -0.824,0.254 L -36.09,23.934 -71.9,1.139 c -0.493,-0.314 -1.102,-0.311 -1.593,0.006 l -38.465,24.83 -35.305,-23.016 c -0.527,-0.344 -1.189,-0.321 -1.695,0.058 l -31.871,23.83 -35.424,-22.539 c -0.242,-0.155 -0.513,-0.232 -0.784,-0.234 l -0.004,3.722 35.487,22.58 c 0.525,0.334 1.18,0.308 1.681,-0.067 l 31.862,-23.823 35.243,22.976 c 0.494,0.322 1.111,0.324 1.607,0.004 l 38.474,-24.838 35.826,22.806 c 0.501,0.319 1.122,0.311 1.616,-0.021 L -0.01,3.755 Z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.835973"
+         id="path1298" />
+    </g>
+    <g
+       id="g1300"
+       transform="matrix(0.4219967,0,0,-0.4219967,74.929187,12.352629)"
+       style="stroke-width:0.835973">
+      <path
+         d="m 0,0 c 0,-2.333 1.923,-4.225 4.294,-4.225 2.372,0 4.295,1.892 4.295,4.225 0,2.333 -1.923,4.225 -4.295,4.225 C 1.923,4.225 0,2.333 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.835973"
+         id="path1302" />
+    </g>
+    <g
+       id="g1304"
+       transform="matrix(0.4219967,0,0,-0.4219967,59.561754,3.4420834)"
+       style="stroke-width:0.835973">
+      <path
+         d="m 0,0 c 0,-2.333 1.923,-4.225 4.294,-4.225 2.372,0 4.295,1.892 4.295,4.225 0,2.333 -1.923,4.225 -4.295,4.225 C 1.923,4.225 0,2.333 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.835973"
+         id="path1306" />
+    </g>
+    <g
+       id="g1308"
+       transform="matrix(0.4219967,0,0,-0.4219967,43.780217,11.369165)"
+       style="stroke-width:0.835973">
+      <path
+         d="m 0,0 c 0,-2.333 1.923,-4.225 4.294,-4.225 2.372,0 4.295,1.892 4.295,4.225 0,2.333 -1.923,4.225 -4.295,4.225 C 1.923,4.225 0,2.333 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.835973"
+         id="path1310" />
+    </g>
+    <g
+       id="g1312"
+       transform="matrix(0.4219967,0,0,-0.4219967,13.944206,11.007936)"
+       style="stroke-width:0.835973">
+      <path
+         d="m 0,0 c 0,-2.333 1.923,-4.225 4.294,-4.225 2.372,0 4.295,1.892 4.295,4.225 0,2.333 -1.923,4.225 -4.295,4.225 C 1.923,4.225 0,2.333 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.835973"
+         id="path1314" />
+    </g>
+    <g
+       id="g1316"
+       transform="matrix(0.4219967,0,0,-0.4219967,28.583609,2.288894)"
+       style="stroke-width:0.835973">
+      <path
+         d="m 0,0 c 0,-2.333 1.923,-4.225 4.294,-4.225 2.372,0 4.295,1.892 4.295,4.225 0,2.333 -1.923,4.225 -4.295,4.225 C 1.923,4.225 0,2.333 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.835973"
+         id="path1318" />
+    </g>
+  </g>
+</svg>

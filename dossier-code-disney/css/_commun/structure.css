@@ -67,7 +67,6 @@
         font-size: 1.8rem;
         text-align: center;
         color: var(--blanc);
-        margin-top: 120px;
     }
     
     h2 {
@@ -82,7 +81,6 @@
     }
     
     .h2-jaune {
-        padding: 100px 0 40px 0; 
         color: var(--jaune);
     }
 
@@ -136,6 +134,11 @@
         font-size: 2rem;
         text-align: center;
     }
+
+    .titre {
+        font-size: 1.3rem;
+        margin-bottom: 70px;
+    }
     
 }/* @media screen and (min-width: $mobile) { */
 
@@ -166,6 +169,7 @@
 
     .bgcolor {
         display: inherit;
+        z-index: -2;
     }
 
     #conteneur-vegetal {
@@ -194,12 +198,6 @@
         background-color: transparent;
     } 
 
-    /* --- SVG ZIG ZAG AVEC POINTS */
-
-    #_00_Homepage {
-        width: 500px;
-    }
-
     /* --- IMAGE DU CHATEAU */
 
     #conteneur-illuminations {
@@ -214,13 +212,9 @@
     h1 {
         font-size: 4rem;
     }
-    
-    h2 {
-        font-size: 3rem;
-    }
 
     .h2-blanc {
-        margin-top: 50px;
+        font-size: 3rem;
     }
     
     .h2-jaune {
@@ -237,6 +231,10 @@
     
     h5 {
         font-size: 1.5rem;
+    }
+
+    h5:nth-of-type(even) {
+        margin-top: 100px;
     }
 
 }/* @media screen and (min-width: $desktop) { */

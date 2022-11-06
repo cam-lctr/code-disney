@@ -56,10 +56,28 @@ body{
     z-index: -1;
 }
 
+.titre::before {
+    content: ""; 
+    display: block;
+    height: 60px;
+    width: 355px;
+    background-image: url(./../images/svg/pseudo-zig-zag.svg);
+    margin: 0 auto;
+}
+
+.titre::after {
+    content: ""; 
+    display: block;
+    height: 60px;
+    width: 355px;
+    background-image: url(./../images/svg/pseudo-zig-zag.svg);
+    margin: 0 auto;
+}
+
 h4::before {
     content: ""; 
     display: inline-block;
-    background-image: url('points.svg'); /*EMPLACEMENT A CHANGER*/
+    background-image: url(./../images/svg/points.svg);
     height: 45px;
     width: 20px;
     vertical-align: -50%;
@@ -230,7 +248,7 @@ button:hover {
     position: absolute;
     top: 12px;
     right: -10px;
-    background-image: url('points.svg'); /*EMPLACEMENT A CHANGER*/
+    background-image: url(./../images/svg/points-jaune.svg);
     height: 45px;
     width: 20px;
 }

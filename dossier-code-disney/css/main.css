@@ -45,15 +45,7 @@ body{
     font-size: 16px;
     background-color: var(--noir);
     color: var(--blanc);
-}
-
-.bgcolor {
-    position: fixed;
-    height: 100vh;
-    margin-left: 250px;
-    width: 70vw;
-    background-color: var(--noir);
-    z-index: -1;
+    overflow-x: hidden;
 }
 
 .titre::before {
@@ -83,33 +75,9 @@ h4::before {
     vertical-align: -50%;
 }
 
-/* ---------- ECRAN FIXE      */
-
-/* --- FANION NOUVEAU */
-.fixe>img {
-    position: absolute;
-    top: -55px;
-    left: 5vw;
-    width: 100px;
-}
-
-/* --- VISUEL ROI LION */
-#conteneur-visuel img {
-    height: 100%;
-    object-fit: cover;
-} 
-
 
 /* ---------- ECRAN SCROLL      */
 
-/* --- SVG ZIG ZAG AVEC POINTS */
-/* (si tu as un meilleur nommage mets-le stp) */
-
-#_00_Homepage {
-    position: absolute;
-    left: 50%;                                             
-    transform: translate(-50%, 0);
-}
 
 /* --- BOUTON JOUER ! */
 
@@ -182,7 +150,8 @@ button:hover {
     position: relative;
     width: 90%;
     left: 50%;                                            
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    margin-bottom: 3vw;
 }
 #conteneur-illuminations svg{
     position: absolute;
@@ -191,12 +160,18 @@ button:hover {
 }
 #conteneur-illuminations img{
     position: absolute;
+    top: 1%;
     left: 1.5%;
-    width: 97%;
+    width: 96%;
+
 }
 
 .composition {
     list-style: none;
+}
+
+.composition li {
+    padding-left: 20px;
 }
 
 .composition  li::before {
@@ -223,34 +198,27 @@ button:hover {
 }
 #conteneur-jungle img{
     position: absolute;
+    top: 1%;
     left: 1.5%;
     width: 97%;
 }
-
-/* 
-   IMAGE AVEC POSITION : RELATIVE DUMB MAIS JSP CMMT FAIRE D'AUTRE
-   --> RAPPEL : c'est le height qui dérange tout sinon mettre un
-   flex-box au lieu de position mais cmmt faire pour que le SVG soit
-   en-dessous que l'image ? 
-   A VOIR
-*/
 
 .reglement {
     color: var(--jaune);
     text-transform: uppercase;
     text-align: right;
     position: relative;
-    padding: 10px 20px 0 0;
+    padding: 10px 20px 20px 0;
 }
 
 .reglement::after {
     content: ""; 
     position: absolute;
     top: 12px;
-    right: -10px;
+    right: 0px;
     background-image: url(./../images/svg/points-jaune.svg);
     height: 45px;
-    width: 20px;
+    width: 12px;
 }
 
 

@@ -1,14 +1,32 @@
 
 
 @media screen and (min-width: 0px) {
+   
+    /* ---------- ECRAN FIXE        */
     .fixe {
         position : fixed;
         z-index: 0;
     }
-    
+
+    /* --- FANION NOUVEAU */
+    .fixe>img {
+        position: absolute;
+        top: -8vw;
+        left: 6.5vw;
+        width: 15vw;
+    }
+
+    /* VISUEL ROI LION */
+    #conteneur-visuel img {
+        height: 100%;
+        object-fit: cover;
+        max-width: 100vw;
+    } 
+
+
+    /* ---------- ECRAN SCROLL       */
     .scroll {
         z-index: 1;
-        position : relative;
         min-height: 100vh;
     }
 
@@ -19,28 +37,25 @@
         max-height: 100vh;
     }
 
-    .bgcolor {
-        display: none;
-    }
-
+    /* conteneur vegetal : desktop */
     #conteneur-vegetal {
         display: none;
     }
 
+    /* conteneur vegetal : mobile */
     #conteneur-vegetal90 {
-        height: 247px;
-    }
-    
-    #conteneur-vegetal90 img{
-        margin-top: -900px;
+        position: absolute;
+        margin-top: 110vw;
+        width : 100vw;
+        height: 100%;
     }
 
     #text{
         position: absolute;
-        top: 900px;
-        width : 100%;
+        top: 140vw;
+        width : 100vw;
         background-color: black;
-
+        padding: 0 15px;
     }
 
     /* --- SVG ZIG ZAG AVEC POINTS */
@@ -60,6 +75,8 @@
     #conteneur-jungle {
         height: 50vw;
     }
+
+    /* --- BALISES TEXTES */
 
     h1 {
         font-family: 'Titrage';
@@ -84,12 +101,15 @@
         color: var(--jaune);
     }
 
+    /* texte : à gagner ! */
     .gagner {
         font-size: 1.5rem;
     }
 
+    /* texte : Une aventure extraroooardinaire ! */
     .aventure {
-        font-size: 0.9rem;
+        font-size: 1rem;
+        min-width: 60vw;
     }
     
     h3 {
@@ -103,7 +123,8 @@
     h4 {
         font-family: 'Titrage';
         font-weight: 400;
-        font-size: 1rem; 
+        font-size: 2rem; 
+        line-height: 1;
         color: var(--orange);
         margin-top: 40px;
     }
@@ -128,6 +149,8 @@
         font-style: italic;
     }
 
+
+    /* --- BOUTON (réglage texte) */
     button {
         font-family: 'Titrage';
         font-weight: 700;
@@ -148,16 +171,29 @@
 
 @media screen and (min-width: 64rem) {
 
-    body {
-        height: 205vw;
-    }
-
+    /* ---------- ECRAN FIXE        */
     .fixe {
         height: 100vh;
         width: 50%;
     }
 
+    /* --- FANION NOUVEAU */
+    .fixe>img {
+    position: absolute;
+    top: -55px;
+    left: 5vw;
+    width: 100px;
+    }
+
+    /* --- VISUEL ROI LION */
+    #conteneur-visuel img {
+        width: 100%;
+    } 
+
+
+    /* ---------- ECRAN SCROLL      */
     .scroll {
+        position : relative;
         left: 30%;
         width: 70%;
     }
@@ -167,11 +203,6 @@
         height: 100vh;
     }
 
-    .bgcolor {
-        display: inherit;
-        z-index: -2;
-    }
-
     #conteneur-vegetal {
         display: inherit;
         position : fixed;
@@ -179,11 +210,13 @@
         height: 100%;
     }
 
+    /* conteneur vegetal : desktop */
     #conteneur-vegetal img {
         height: 100vh;
         
     }
 
+    /* conteneur vegetal : mobile */
     #conteneur-vegetal90 {
         display: none;
     }
@@ -209,6 +242,8 @@
         height: 22vw;
     }
 
+     /* --- BALISES TEXTES */
+
     h1 {
         font-size: 4rem;
     }
@@ -218,7 +253,11 @@
     }
     
     .h2-jaune {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+
+    .aventure {
+        min-width: 40vw;
     }
     
     h3 {

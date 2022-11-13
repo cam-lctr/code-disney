@@ -12,14 +12,6 @@ sass --watch sass/main.scss:css/main.css --style compressed
 */
 
 
-
-
-
-
-
-
-
-
 /* ---------- INIT */
 
 @import url('_init/webfonts.css');
